@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "c6ff4140-c74c-4e10-9dc8-09d00094f2ca",
+		"name": "mini-rag",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "50512684",
+		"_collection_link": "https://hamitou-yah-9725337.postman.co/workspace/Yahia-Hamitou's-Workspace~c143fbde-2f1c-4c2b-8d07-83eab591bdfe/collection/50512684-c6ff4140-c74c-4e10-9dc8-09d00094f2ca?action=share&source=collection_link&creator=50512684"
+	},
+	"item": [
+		{
+			"name": "welcome-request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api}}/welcome",
+					"host": [
+						"{{api}}"
+					],
+					"path": [
+						"welcome"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "api",
+			"value": ""
+		}
+	]
+}
